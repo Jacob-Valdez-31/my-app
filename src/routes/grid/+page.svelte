@@ -15,15 +15,17 @@ import bride from '/src/img/bride.jpeg'
     .parent{
         margin-right: 200px;
         margin-top: 200px;
-        flex-wrap: wrap;
+        position: relative;
     }
     .parent-two{
         margin-left: 320px;
-        margin-top:-538px; 
+        margin-top:-538px;
+        position: relative; 
     }
     .parent-three{
         margin-left: 840px;
         margin-top: -819px;
+        position: relative;
         
     }
     .grid-container-colum {
@@ -31,6 +33,7 @@ import bride from '/src/img/bride.jpeg'
       grid-template-columns: 258px 200px ;
      grid-area: center;
      justify-content: center;
+     position: relative;
     }
     .grid-container-row {
         display: grid;
@@ -38,50 +41,46 @@ import bride from '/src/img/bride.jpeg'
          grid-area: center;
         justify-content: center;
         transform: translate(-10px, -409px);
+        position: relative;
     }
     .img-style{
         transform: rotate(45deg) ;
         width: 180px;
         height: 180px;
         margin-top: 100px;
-        z-index: 1;
-        
-    
-        &:hover {
-            z-index: 2;
-     transform:scale(3) rotate(45deg) ;
-        }
+        position: relative;
     }
     </style>
 
 <div style="margin-right:300px">
     <div class="parent">
         <div class="grid-container-colum">
-            <img src={bennett_jacob} class="img-style" style="height:180px; width:180px">   
-            <img src={trent_jacob} class="img-style" style="height:180px; width:180px">  
+            <img src={bennett_jacob} class="img-style" alt="" >   
+            <img src={trent_jacob} class="img-style" alt="" >
         </div>
         <div class="grid-container-row">
-            <img src={nate_jacob} class="img-style" style="height:180px; width:180px ">   
-            <img src={cam_jacob} class="img-style" style="height:180px; width:180px">  
+            <img src={nate_jacob} class="img-style" alt="" >   
+            <img src={cam_jacob} class="img-style" alt="" >  
          </div>
-        </div>
-
+    </div>
+</div>
+        
 <div class="parent-two">
     <div class="grid-container-row">
-        <img src={miggy_jacob} class="img-style" style="height:180px; width:180px">   
-        <img src={brothers} class="img-style" style="height:180px; width:180px">          
+        <img src={miggy_jacob} class="img-style" alt="" >   
+        <img src={brothers} class="img-style" alt="" >          
     </div>
 </div>
 
 <div class="parent-three">
     <div class="grid-container-colum">
-        <img src={kiser_jacob} class="img-style" style="height:180px; width:180px">   
-        <img src={will_jacob} class="img-style" style="height:180px; width:180px">  
+        <img src={kiser_jacob} class="img-style" alt="" >   
+        <img src={will_jacob} class="img-style" alt="" >  
     </div>
     <div class="grid-container-row">
-        <img src={family} class="img-style" style="height:180px; width:180px">   
-        <img src={bride} class="img-style" style="height:180px; width:180px">  
+        <img src={family} class="img-style" alt="" >   
+        <img src={bride} class="img-style" alt="">  
      </div>
-    </div>
-</div>
+ </div>
+
 
