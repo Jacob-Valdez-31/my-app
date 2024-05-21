@@ -8,7 +8,6 @@
   import will_jacob from "/src/img/will_jacob.jpeg";
   import brothers from "/src/img/brothers.jpeg";
   import family from "/src/img/family.jpeg";
-  import bride from "/src/img/bride.jpeg";
   import { onMount } from "svelte";
 
   onMount(() => {
